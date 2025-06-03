@@ -1,0 +1,72 @@
+/*!
+ * Platform.js <https://mths.be/platform>
+ * Copyright 2014-2018 Benjamin Tan <https://bnjmnt4n.now.sh/>
+ * Copyright 2011-2013 John-David Dalton
+ * Available under MIT license <https://mths.be/mit>
+ */
+
+/*!
+ * Socket.IO v4.7.2
+ * (c) 2014-2023 Guillermo Rauch
+ * Released under the MIT License.
+ */
+
+/*!
+* @license EaselJS
+* Visit http://createjs.com/ for documentation, updates and examples.
+*
+* Copyright (c) 2011-2015 gskinner.com, inc.
+*
+* Distributed under the terms of the MIT license.
+* http://www.opensource.org/licenses/mit-license.html
+*
+* This notice shall be included in all copies or substantial portions of the Software.
+*/
+
+/*!
+* TweenJS
+* Visit http://createjs.com/ for documentation, updates and examples.
+*
+* Copyright (c) 2010 gskinner.com, inc.
+*
+* Permission is hereby granted, free of charge, to any person
+* obtaining a copy of this software and associated documentation
+* files (the "Software"), to deal in the Software without
+* restriction, including without limitation the rights to use,
+* copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the
+* Software is furnished to do so, subject to the following
+* conditions:
+*
+* The above copyright notice and this permission notice shall be
+* included in all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+* OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+* NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+* HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+* FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+* OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*!
+* screenfull
+* v5.0.0 - 2019-09-09
+* (c) Sindre Sorhus; MIT License
+*/
+
+/*! howler.js v2.2.3 | (c) 2013-2020, James Simpson of GoldFire Studios | MIT License | howlerjs.com */
+
+/*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*! sprintf-js v1.1.2 | Copyright (c) 2007-present, Alexandru M?r??teanu <hello@alexei.ro> | BSD-3-Clause */
+
+/**
+ * @license
+ * Copyright 2010-2021 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */
