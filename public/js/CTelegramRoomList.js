@@ -22,6 +22,7 @@ function CTelegramRoomList() {
   var _oFade;
   var _oContainer;
   var _oMatchmakingText;
+  var _oReconnectingText;
   var _oAnimationContainer;
   var _oLoadingDotsInterval;
   var _bSearching = false;
@@ -157,6 +158,14 @@ function CTelegramRoomList() {
     _oMatchmakingText.y = 220;
     _oMatchmakingText.textAlign = "center";
     _oContainer.addChild(_oMatchmakingText);
+
+    // Текст переподключения
+    _oReconnectingText = new createjs.Text("Соединение с сервером потеряно. Пытаемся восстановить...", "20px " + FONT_GAME, "#ff4444");
+    _oReconnectingText.x = CANVAS_WIDTH / 2;
+    _oReconnectingText.y = 260;
+    _oReconnectingText.textAlign = "center";
+    _oReconnectingText.visible = false;
+    _oContainer.addChild(_oReconnectingText);
 
     // Контейнер для анимации
     _oAnimationContainer = new createjs.Container();

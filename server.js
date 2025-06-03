@@ -11,7 +11,13 @@ const io = require('socket.io')(http, {
   transports: ['websocket', 'polling'],
   allowEIO3: true,
   pingTimeout: 60000,
-  pingInterval: 25000
+  pingInterval: 25000,
+  upgradeTimeout: 30000,
+  allowUpgrades: true,
+  perMessageDeflate: false,
+  httpCompression: {
+    threshold: 2048
+  }
 });
 const path = require('path');
 require('dotenv').config();
@@ -25,6 +31,8 @@ app.use((req, res, next) => {
   res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Connection', 'Upgrade');
+  res.header('Upgrade', 'websocket');
   next();
 });
 
@@ -75,6 +83,12 @@ io.on('connection', (socket) => {
 // Обработка ошибок
 io.on('error', (error) => {
   console.error('Socket.IO error:', error);
+});
+
+// Обработка ошибок сервера
+app.use((err, req, res, next) => {
+  console.error('Server error:', err);
+  res.status(500).send('Something broke!');
 });
 
 const PORT = process.env.PORT || 3001;
